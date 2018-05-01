@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<configuration>
+	<property>
+		<name>yarn.resourcemanager.hostname</name>
+		<value>192.168.58.131</value>
+	</property>
+	<property>
+		<name>yarn.nodemanager.aux-services</name>
+		<value>mapreduce_shuffle</value>
+	</property>
+	<property>
+		<name>yarn.nodemanager.local-dirs</name>
+		<value>file:///home/hdp/bigdata/data/hadoop/yarn/nm</value>
+	</property>
+</configuration>

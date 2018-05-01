@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+	<property>
+		<name>dfs.nameservices</name>
+		<value>hadoop-cluster</value>		
+	</property>
+	<property>
+		<name>dfs.permissions</name>
+		<value>false</value>
+	</property>
+	<property>
+		<name>dfs.replication</name>
+		<value>3</value>
+	</property>
+	<property>
+		<name>dfs.blocksize</name>
+		<value>32M</value>		
+	</property>
+	<property>
+		<name>dfs.namenode.name.dir</name>
+		<value>file:///home/hdp/bigdata/data/hadoop/hdfs/nn</value>
+	</property>
+	<property>
+		<name>dfs.namenode.checkpoint.dir</name>
+		<value>file:///home/hdp/bigdata/data/hadoop/hdfs/snn</value>
+	</property>
+	<property>
+		<name>dfs.namenode.checkpoint.edits.dir</name>
+		<value>file:///home/hdp/bigdata/data/hadoop/hdfs/snn</value>
+	</property>
+	<property>
+		<name>dfs.datanode.data.dir</name>
+		<value>file:///home/hdp/bigdata/data/hadoop/hdfs/dn</value>
+	</property>
+</configuration>
