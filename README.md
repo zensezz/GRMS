@@ -11,7 +11,7 @@
 1.项目名：GRMS
 2.添加Maven依赖：pom.xml
 3.创建包： 
-com.briup.bigdata.project.grms
+com.bigdata.project.grms
     |--step1
     |--step2
     |--...
@@ -23,6 +23,7 @@ com.briup.bigdata.project.grms
         |--step1
         |--...
 6.开始编程。
+    
     @原始数据：
         10001	20001	1
         10001	20002	1
@@ -41,6 +42,7 @@ com.briup.bigdata.project.grms
         10005	20001	1
         10006	20004	1
         10006	20007	1
+	
     a.计算用户购买商品的列表
         类名：UserBuyGoodsList.java
    
